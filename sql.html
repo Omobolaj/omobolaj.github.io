@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SQL Projects | Omobolaji's Portfolio</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <div class="logo">Omobolaji's Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#skills">Skills</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+      <li><button id="theme-toggle">Toggle Theme</button></li>
+    </ul>
+  </nav>
+
+  <section id="hero" class="fade-up">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>SQL Projects</h1>
+        <p>Real-world projects showcasing how I’ve leveraged SQL to extract, transform, and analyze data, providing actionable insights and driving data-informed decisions.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="project-list" class="fade-up">
+    <h2>Featured Projects</h2>
+    <div class="projects-container">
+  
+      <!-- Project Card 1 -->
+      <div class="project-card">
+        <img src="SQLscreen1.png" alt="Sales Data Analysis" class="project-preview" />
+        <h3>HR Analytics with SQL – Workforce Performance & Attrition Insights</h3>
+        <p>Analyzed HR data to uncover employee's peformance and attrition rate in the company.</p>
+        <a href="#sql-dashboard-details" class="btn">View Project</a> <!-- ✅ fixed -->
+      </div>
+  
+      <!-- Project Card 2 -->
+      <div class="project-card">
+        <img src="SQLProject2A.png" alt="Inventory Management System" class="project-preview" />
+        <h3>Commercial Data Cleaning Project – Cleaning and Analysis</h3>
+        <p>Cleaned and analyzed commercial transaction data using SQL queries to uncover inconsistencies, improve data quality, and extract business insights.</p>
+        <a href="#inventory-management-details" class="btn">View Project</a>
+      </div>
+  
+      <!-- Project Card 3 -->
+      <div class="project-card">
+        <img src="SQLProject3A.png" alt="Health and Wellness SQL Analysis" class="project-preview" />
+        <h3>Health & Wellness SQL Analysis – Product Trends and Sales Intelligence</h3>
+        <p>Performed advanced query operations to uncover regional sales patterns, top-performing categories, and sales representative rankings.</p>
+        <a href="#health-wellness-sql-details" class="btn">View Project</a>
+      </div>
+  
+    </div>
+  </section>
+
+  <section id="sql-dashboard-details" class="fade-up">
+    <h2>SQL Project Dashboard – Comprehensive Query Analysis</h2>
+    <div class="sql-gallery">
+      <img src="SQLscreen1.png" alt="SQL Query 1" class="sql-image" />
+      <img src="SQLscreen2.png" alt="SQL Query 2" class="sql-image" />
+      <img src="SQLscreen3.png" alt="SQL Query 1" class="sql-image" />
+      <img src="SQLscreen4.png" alt="SQL Query 2" class="sql-image" />
+      <img src="SQLscreen5.png" alt="SQL Query 1" class="sql-image" />
+      <img src="SQLscreen6.png" alt="SQL Query 2" class="sql-image" />
+      <img src="SQLscreen7.png" alt="SQL Query 1" class="sql-image" />
+      <img src="SQLscreen9.png" alt="SQL Query 2" class="sql-image" />
+      <!-- More images -->
+    </div>
+    <div class="project-description">
+        <p><strong>Tools Used:</strong> PostgreSQL, pgAdmin 4, SQL Joins, Subqueries, CASE Statements, Aggregation Functions</p>
+        <p><strong>Problem Solved:</strong> HR management lacked visibility into staff performance, salary trends, reasons for exit, and active vs. exited employee tracking which stalled workforce planning and cost forecasting.</p>
+        <p><strong>Solution Provided:</strong> I designed normalized SQL tables and wrote optimized queries to extract employee lifecycle insights: high earners by department, attrition by job title, bonus gaps, and yearly exit patterns. The results were later visualized for easier communication.</p>
+        <p><strong>Outcome:</strong> Actionable insights allowed HR to identify under-compensated roles, realign retention strategies, and initiate role-specific interventions. Workforce turnover reduced in two critical departments, and bonus allocation improved fairness perception.</p>
+      </div>
+    </section>
+
+  <section id="inventory-management-details" class="fade-up">
+    <h2>Commercial Data Cleaning Project – Cleaning and Analysis</h2>
+    <div class="sql-gallery">
+      <img src="SQLProject2A.png" alt="SQL Query 1" class="sql-image" />
+      <img src="SQLProject2B.png" alt="SQL Query 2" class="sql-image" />
+      <img src="SQLProject2C.png" alt="SQL Query 1" class="sql-image" />
+      <img src="SQLProject2D.png" alt="SQL Query 2" class="sql-image" />
+      <img src="SQLProject2E.png" alt="SQL Query 1" class="sql-image" />
+      <img src="SQLProject2F.png" alt="SQL Query 2" class="sql-image" />
+      <img src="SQLProject2G.png" alt="SQL Query 1" class="sql-image" />
+      <img src="SQLProject2H.png" alt="SQL Query 2" class="sql-image" />
+    </div>
+    <div class="project-description">
+        <p><strong>Tools Used:</strong> PostgreSQL, pgAdmin 4, SQL Data Cleaning, Aggregate Functions, CASE Statements, Data Validation Queries</p>
+        <p><strong>Problem Solved:</strong> The commercial dataset was filled with missing, null, and inconsistent values across key columns, leading to inaccurate reports and unreliable insights.</p>
+        <p><strong>Solution Provided:</strong> I wrote SQL queries to identify and clean missing data, replace nulls with placeholders, validate quantities and prices, and calculate verified revenue. Analytical queries followed to extract total revenue, top customers/products, monthly trends, and return patterns.</p>
+        <p><strong>Outcome:</strong> Cleaned data enabled consistent and accurate analysis. The insights revealed seasonal patterns, top-selling items, and regions with high return rates, allowing the commercial team to adjust promotions, improve fulfillment accuracy, and enhance customer targeting.</p>
+      </div>
+</section>      
+
+<section id="health-wellness-sql-details" class="fade-up">
+    <h2>Health & Wellness SQL Analysis – Product Trends and Sales Intelligence</h2>
+    <div class="sql-gallery">
+      <img src="SQLProject3A.png" alt="Health and Wellness SQL Query 1" class="sql-image" />
+      <img src="SQLProject3B.png" alt="Health and Wellness SQL Query 2" class="sql-image" />
+      <img src="SQLProject3C.png" alt="Health and Wellness SQL Query 3" class="sql-image" />
+      <img src="SQLProject3D.png" alt="Health and Wellness SQL Query 4" class="sql-image" />
+    </div>
+  
+    <div class="project-description">
+      <p><strong>Tools Used:</strong> PostgreSQL, pgAdmin 4, CASE Statements, Aggregate Functions, Joins, Date-Time Functions</p>
+      <p><strong>Problem Solved:</strong> The business lacked visibility into performance across health and wellness categories, limiting strategic allocation and promotional planning.</p>
+      <p><strong>Solution Provided:</strong> I designed a robust relational table and executed SQL queries to analyze monthly sales, product trends, regional shares, payment methods, and top sales reps. The results offered granular, cross-sectional views of operations.</p>
+      <p><strong>Outcome:</strong> Management identified key revenue-driving regions, realigned marketing toward top-selling products, and optimized payment offerings resulting in better channel allocation and a 3x boost in promotional ROI.</p>
+    </div>
+  </section>
+  
+  <footer><p>&copy; 2025 Omobolaji. All rights reserved.</p></footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="../main.js"></script>
+</body>
+</html>

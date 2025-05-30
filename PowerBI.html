@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Power BI Projects | Omobolaji's Portfolio</title>
+
+  <!-- Lightbox CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+
+  <!-- External Styles and Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="logo">Omobolaji's Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../index.html#skills">Skills</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+      <li><button id="theme-toggle">Toggle Theme</button></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Banner -->
+  <section id="hero" class="fade-up">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>Power BI Projects</h1>
+        <p>Real-world projects that showcase how I’ve leveraged Power BI to transform data into actionable insights through data modelling, data cleaning, dynamic dashboards and reports.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="project-list" class="fade-up">
+    <h2>Featured Projects</h2>
+    <div class="projects-container">
+
+      <!-- Project Card -->
+      <div class="project-card">
+        <img src="Power1screen1.png" alt="Retail Sales Dashboard" class="project-preview" />
+        <h3>Enterprise Retail Intelligence - Data Modelling and Analysis</h3>
+        <p>Integrated sales data to provide real-time insights into retail performance across regions and products.</p>
+        <a href="#retail-dashboard-details" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="Gadget Sales dashboard.PNG" alt="Financial Analytics Dashboard" class="project-preview" />
+        <h3>Gadget Sales Dashboard – Regional, Rep & Payment Insights</h3>
+        <p>Visualized financial metrics to aid strategic decision-making and profitability tracking.</p>
+        <a href="#finance-dashboard-details" class="btn">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <img src="DataKliq Dashboard.PNG" alt="Customer Insights Dashboard" class="project-preview" />
+        <h3>Pharmaceutical Sales Dashboard – Product Performance & Regional Profitability</h3>
+        <p>Analyzed customer data to uncover trends and inform targeted marketing strategies.</p>
+        <a href="#customer-insights-details" class="btn">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Detailed Sections -->
+  <section id="retail-dashboard-details" class="fade-up">
+    <h2>Retail Sales Dashboard – Comprehensive Performance Overview</h2>
+  
+    <div class="powerbi-gallery">
+      <div class="powerbi-frame">
+        <img src="Power1screen2.png" alt="Retail Dashboard View 1" class="powerbi-image" />
+      </div>
+      <div class="powerbi-frame">
+        <img src="PowerBI1screen3.png" alt="Retail Dashboard View 2" class="powerbi-image" />
+      </div>
+      <div class="powerbi-frame">
+        <img src="PowerBI1screen4.png" alt="Retail Dashboard View 3" class="powerbi-image" />
+      </div>
+      <div class="powerbi-frame">
+        <img src="Power1screen5.jpg" alt="Retail Dashboard View 4" class="powerbi-image" />
+      </div>
+    </div>
+  
+    <div class="project-description">
+      <p>I built this interactive Power BI dashboard to unify key retail KPIs revenue, sales volume, returns, product performance, and customer behavior. The challenge was to provide a 360° view of retail operations in one report.</p>
+      <p>This visual report helps leadership analyze performance by product, country, segment, and payment method. It tracks seasonal sales, identifies top-performing categories, and flags refund hotspots all in real time.</p>
+      <ul>
+        <li><strong>Tools Used:</strong> Power BI, DAX, slicers, matrix visual, stacked bar, line chart, drill-through filters</li>
+        <li><strong>Problem Solved:</strong> Retail data was too distributed and disjointed for stakeholders to analyze quickly</li>
+        <li><strong>Outcome:</strong> I implemented focused product adjustments and streamlined reporting workflows, which led to faster strategic pivots and a measurable boost in product sales performance.</li>
+      </ul>
+    </div>
+  </section>
+  
+  
+  <section id="finance-dashboard-details" class="fade-up">
+    <h2>Gadget Sales Intelligence Dashboard – Regional, Rep & Payment Insights</h2>
+    <div class="single-project-wrapper">
+      <img src="Gadget Sales dashboard.PNG" alt="Gadget Sales Intelligence Dashboard" class="single-project-image" />
+    </div>
+    <p><strong>Tools Used:</strong> Power BI Desktop, DAX Measures, Card Visuals, Clustered Column Chart, Pie Chart, Line Chart, Slicers</p>
+    <p><strong>Problem Solved:</strong> The sales team lacked centralized visibility into gadget performance across reps, regions, and payment methods. This slowed business decisions and limited the ability to respond to sales bottlenecks.</p>
+    <p><strong>Solution Provided:</strong> I built an all-in-one Power BI dashboard that visualizes total sales, profit margins, rep performance, regional breakdowns, and payment preferences. Filters by year, month, and product line enable real-time exploration.</p>
+    <p><strong>Outcome:</strong> With clear insights into monthly drops, underperforming regions, and rep contribution, the team reallocated sales targets, incentivized top performers, and optimized payment strategies. This led to smarter forecasting and higher monthly consistency in order fulfillment.</p>
+  </section>
+  
+  
+
+  <section id="customer-insights-details" class="fade-up">
+    <h2>Pharmaceutical Sales Dashboard – Product Performance & Regional Profitability</h2>
+    <div class="single-project-wrapper">
+      <img src="DataKliq Dashboard.PNG" alt="Pharmaceutical Sales Dashboard" class="single-project-image" />
+    </div>
+    <p><strong>Tools Used:</strong> Power BI Desktop, DAX, Power Query, Pie & Bar Visuals, Dynamic Filters</p>
+    <p><strong>Problem Solved:</strong> The pharmaceutical company lacked a centralized view of product sales, profit margins, and regional performance, limiting their ability to make informed decisions on product distribution and customer focus.</p>
+    <p><strong>Solution Provided:</strong> I designed an integrated dashboard that analyzes revenue and profit by drug name, customer accounts, and geographic zones. It includes profit margin analysis, tax summaries, and performance trends with filtering by year and product category.</p>
+    <p><strong>Outcome:</strong> The commercial team used these insights to reallocate resources to top-performing drugs and regions, reduce overhead on low-profit segments, and maximize operational profitability.</p>
+  </section>
+  
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Omobolaji. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="../main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+</body>
+</html>
